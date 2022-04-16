@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mentorplus/static/css/main.b5e0963e.css",
+    "main.js": "/mentorplus/static/js/main.3e1fd5ef.js",
+    "static/media/mp logo.png": "/mentorplus/static/media/mp logo.5345504eace1d6d8af6a.png",
+    "index.html": "/mentorplus/index.html",
+    "main.b5e0963e.css.map": "/mentorplus/static/css/main.b5e0963e.css.map",
+    "main.3e1fd5ef.js.map": "/mentorplus/static/js/main.3e1fd5ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5e0963e.css",
+    "static/js/main.3e1fd5ef.js"
+  ]
+}
