@@ -1,0 +1,311 @@
+/** @format */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: #080c4b;
+  text-decoration: none;
+}
+
+a .Sidebar-btn:hover {
+  background-color: rgb(96, 129, 194);
+  color: #080c4b;
+}
+
+a:active {
+  background-color: rgb(96, 129, 194);
+  color: #080c4b;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Piazzolla", serif;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+.Nav {
+  display: block;
+  box-shadow: 1px 2px 10px #dddbdb;
+  min-height: 7rem;
+  background-color: white;
+}
+
+.Nav-logo {
+  margin: 0.8rem 1rem 1rem 1rem;
+  height: 5.3rem;
+  display: none;
+}
+
+.Nav-toggle {
+  font-size: 3rem;
+  /* float: right; */
+  margin: 1rem 1.5rem;
+  display: none;
+}
+
+.Sidebar {
+  background-color: #eeeeee;
+  position: fixed;
+  height: 100%;
+  width: 30rem;
+  margin-top: -7.1rem;
+  overflow-y: scroll;
+}
+
+.Sidebar-logo-main {
+  margin: 2.5rem 2.5rem 2.5rem 3.6rem;
+  display: flex;
+  flex-direction: row;
+}
+.Sidebar-logo {
+  margin: 2rem 1rem 1rem 1rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+}
+.Sidebar-logo-text {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.Sidebar-btn {
+  background-color: rgb(213, 227, 255);
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 2rem 4.5rem;
+  line-height: 6rem;
+  border: #d6d5d5 0.1rem solid;
+  box-shadow: 5px 10px 18px #d6d5d5;
+  border-radius: 1rem;
+  min-height: 6rem;
+}
+
+.Profile {
+  margin-left: 30rem;
+  padding: 2rem 0rem 0rem 4rem;
+  height: 100%;
+}
+
+.Profile h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.Home {
+  margin-left: 30rem;
+  padding: 2rem 0rem 0rem 4rem;
+  height: 100%;
+}
+
+#Home-back {
+  font-size: 2rem;
+}
+
+.Home h1 {
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+  word-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.Home-design {
+  max-width: 10rem;
+  max-height: 0.5;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.Home-design-1 {
+  width: 5rem;
+  max-width: 5rem;
+  min-height: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: #191e5f;
+}
+
+.Home-design-2 {
+  width: 5rem;
+  max-width: 5rem;
+  min-height: 0.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: red;
+}
+
+.Home h2 {
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  color: #4e4e4e;
+  word-spacing: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.Home-dates {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  padding: 0.2rem;
+}
+
+.Home-date {
+  border: solid 0.2rem #4047a3;
+  width: 7rem;
+  min-width: 7rem;
+  height: 10rem;
+  /* float: left; */
+  border-radius: 1rem;
+  margin: 0rem 1.2rem 0rem 1.2rem;
+  text-align: center;
+  line-height: 3.3rem;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Home-date:hover {
+  background-color: rgb(65, 134, 44);
+  color: white;
+}
+
+.Home-date-day,
+.Home-date-date,
+.Home-date-month {
+  font-family: "Roboto", sans-serif;
+}
+
+.Home-date-day {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.Home-date-date {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.Home-date-month {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.Home-slots {
+  overflow-x: scroll;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.Home-slot {
+  border: solid 0.2rem #4047a3;
+  width: 16rem;
+  height: 4.5rem;
+  min-width: 16rem;
+  /* float: left; */
+  border-radius: 1rem;
+  margin: 0rem 1.2rem 0rem 1.2rem;
+  text-align: center;
+  line-height: 2.2rem;
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Home-slot-data {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.Home-slot:hover {
+  background-color: #41862c;
+  color: white;
+}
+
+.Home-pay-btn {
+  margin: 1.2rem 0rem 1.5rem 1.2rem;
+  min-width: 15rem;
+  min-height: 4rem;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #01075a;
+  color: white;
+  padding: 0rem;
+  line-height: 2rem;
+  border-radius: 1rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+#menu {
+  display: none;
+}
+
+@media (max-width: 660px) {
+  .Sidebar {
+    width: 100%;
+    margin-top: 7.5rem;
+    /* right: 0%; */
+    /* transition: all 0.5s; */
+  }
+
+  .Sidebar-logo-main {
+    display: none;
+  }
+
+  .Nav-logo {
+    display: block;
+  }
+
+  .Nav-toggle {
+    display: block;
+    position: relative;
+    top: -5.5rem;
+    left: 85%;
+    margin-right: 3rem;
+    cursor: pointer;
+  }
+
+  .Profile {
+    margin-left: 0rem;
+    padding: 9rem 0rem 0rem 3rem;
+    height: 100%;
+  }
+
+  .Profile h1 {
+    font-size: 2rem;
+  }
+
+  .Home {
+    margin-left: 0rem;
+    padding: 9rem 0rem 0rem 3rem;
+    height: 100%;
+  }
+
+  .Home h1 {
+    font-size: 2rem;
+  }
+
+  .Nav {
+    position: fixed;
+    width: 100%;
+    max-height: 6rem;
+  }
+
+  /* #menu:checked ~ .Sidebar {
+    right: 100%;
+  } */
+}
